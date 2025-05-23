@@ -75,7 +75,7 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 section, .section {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 section:last-child {
@@ -118,7 +118,7 @@ section:last-child {
 	}
 
 	header {
-		margin: 130px 0 65px;
+		margin: 40px 0 20px;
 		text-align: center;
 	}
 
@@ -195,7 +195,7 @@ section:last-child {
 	/*- content-block -*/
 	.content-block {
 		padding-bottom: 30px;
-		margin-bottom: 60px;
+		margin-bottom: 30px;
 		border-bottom: 1px solid #CECECE;
 	}
 

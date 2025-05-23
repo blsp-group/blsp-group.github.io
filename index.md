@@ -6,7 +6,7 @@ description:
 # Homepage Content
 hero:
   description: >
-    **BLSP** (**B**ayesian **L**earning for **S**ignal **P**rocessing) Group is a research group led by [Prof. Feng Yin](https://myweb.cuhk.edu.cn/yinfeng) of the Chinese University of Hong Kong, Shenzhen. The main research interests include Bayesian learning theory, probabilistic models and methods, causal inference, statistical estimation theory as well as their applications to signal processing and wireless communications applications.
+    **BLSP** (**B**ayesian **L**earning for **S**ignal **P**rocessing) Group is a research group led by [Prof. Feng Yin](https://myweb.cuhk.edu.cn/yinfeng) of the Chinese University of Hong Kong, Shenzhen. The main research interests include Bayesian learning theory, probabilistic models and methods, causal inference, statistical estimation theory as well as their applications to signal processing and wireless communications.
 
 postdoc_recruitment:
   title: "博士后招聘"
