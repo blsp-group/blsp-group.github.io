@@ -1,0 +1,10 @@
+<footer class="footer">
+  <div class="footer-bottom">
+    {% if site.footer_text and site.footer_text != "" %}
+      {{ site.footer_text }}
+    {% endif %}
+    {% if site.last_updated %}
+      <small>Last updated: {{ site.time | date: '%B %d, %Y' }}</small>
+    {% endif %}
+  </div>
+</footer> 

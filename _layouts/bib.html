@@ -1,0 +1,24 @@
+<div class="bio">
+  {% if entry.preview %}
+  <div class="bio-image">
+    <img src="{{ '/assets/images/src/' | append: entry.preview | relative_url }}" alt="Preview" loading="lazy">
+  </div>
+  {% endif %}
+  <div class="bio-content">
+    <p>
+      <b>{{ entry.title }}</b>
+      {% if entry.url %}
+        <a href="{{ entry.url }}" target="_blank"><i class="fa fa-external-link"></i></a>
+      {% endif %}
+      <br>
+      <em>{{ entry.author }}</em><br>
+      {% if entry.booktitle %}
+        {{ entry.booktitle }}, {{ entry.year }}
+      {% elsif entry.journal %}
+        {{ entry.journal }}, {{ entry.year }}
+      {% else %}
+        {{ entry.year }}
+      {% endif %}
+    </p>
+  </div>
+</div> 

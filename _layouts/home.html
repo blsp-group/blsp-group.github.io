@@ -1,0 +1,163 @@
+---
+layout: default
+---
+
+<style>
+  .row {
+    display: flex;
+  }
+
+  .main-content {
+    flex-grow: 1;
+  }
+
+  .sidebar-gutter {
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
+
+  /* News date box styling */
+  .news-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid #E4E4E4;
+  }
+  
+  .news-item:last-child {
+    border-bottom: none;
+  }
+  
+  .news-date-box {
+    background: linear-gradient(135deg, #90A4AE 0%, #78909C 100%);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-align: center;
+    min-width: 65px;
+    margin-right: 15px;
+    margin-top: 2px;
+    box-shadow: 0 1px 3px rgba(144, 164, 174, 0.2);
+    transition: all 0.2s ease-out;
+    flex-shrink: 0;
+  }
+  
+  .news-date-box:hover {
+    background: linear-gradient(135deg, #B0BEC5 0%, #90A4AE 100%);
+    box-shadow: 0 2px 5px rgba(144, 164, 174, 0.25);
+    transform: translateY(-1px);
+  }
+  
+  .news-content {
+    flex: 1;
+    line-height: 1.5;
+  }
+  
+  .news-content p {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+  }
+</style>
+
+<header>
+  <!-- Original header space if needed -->
+</header>
+
+<section>
+  <div class="row">
+    <!-- Main Page -->
+    <div class="col-md-8 main-content">
+      <div class="content-block">
+        <div class="block-body">
+          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo" width="512px">
+          <p><br>
+            {{ page.hero.description | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+          </p>
+
+          <!-- Postdoc Recruitment Section -->
+          <h3>{{ page.postdoc_recruitment.title }}</h3>
+          <p style="font-size: 16px;">
+            {{ page.postdoc_recruitment.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+          </p>
+          <ul style="text-align: left;">
+            {% for area in page.postdoc_recruitment.areas %}
+              <li>{{ area }}</li>
+            {% endfor %}
+          </ul>
+          <p style="font-size: 16px;">
+            {{ page.postdoc_recruitment.footer | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+          </p>
+        </div>
+      </div>
+
+      <!-- Recent News Section -->
+      {% if site.announcements.enabled %}
+        <h3 align="left">Recent News</h3><br/>
+        <div class="block-text">
+          {% assign news = site.news | sort: 'date' | reverse %}
+          {% if site.announcements.limit %}
+            {% assign news_limit = site.announcements.limit %}
+          {% else %}
+            {% assign news_limit = news.size %}
+          {% endif %}
+          {% for item in news limit: news_limit %}
+            <div class="news-item">
+              <div class="news-date-box">
+                {{ item.date | date: "%Y.%m" }}
+              </div>
+              <div class="news-content">
+                <p>
+                  <b>{{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}</b>
+                </p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-md-4 sidebar-gutter">
+      <aside>
+        <!-- sidebar-widget -->
+        <div class="sidebar-widget">
+          <div class="widget-container widget-main">
+            <img src="{{ page.professor.photo | relative_url }}" alt="{{ page.professor.name }}'s photo" width="256px">
+            <h4>{{ page.professor.chinese_name }} &nbsp; {{ page.professor.name }}</h4>
+            <div class="author-title">{{ page.professor.title }}</div>
+            <p>
+              <b>E-mail</b>: <a href="mailto:{{ page.professor.email }}">{{ page.professor.email }}</a><br>
+              <b>Office</b>: {{ page.professor.office }} <br>
+            </p>
+          </div>
+        </div>
+
+        <!-- sidebar-widget -->
+        <div class="sidebar-widget">
+          <h3 class="sidebar-title">{{ page.openings.title }}</h3>
+          <div class="widget-container">
+            <p>
+              {{ page.openings.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+            </p>
+          </div>
+        </div>
+
+        <!-- sidebar-widget -->
+        <div class="sidebar-widget">
+          <h3 class="sidebar-title">{{ page.contact.title }}</h3>
+          <div class="widget-container">
+            {{ page.contact.content | markdownify }}
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section> 

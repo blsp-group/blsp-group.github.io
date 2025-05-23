@@ -1,0 +1,219 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: BLSP Group # Bayesian Learning for Signal Processing Group
+first_name: BLSP
+middle_name: 
+last_name: Group
+email: yinfeng@cuhk.edu.cn
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  BLSP (Bayesian Learning for Signal Processing) Group - Bayesian Learning for Signal Processing research at CUHK-Shenzhen
+footer_text: >
+  
+keywords: bayesian learning, signal processing, machine learning, wireless communications, CUHK, Shenzhen, Feng Yin
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: 🖥️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+
+url: https://blsp-group.github.io # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
+last_updated: true # set to true if you want to display last updated in the footer
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+
+# repo color theme
+repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_trophies:
+  enabled: true
+  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
+  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+
+# -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+# will use title and url fields
+# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+
+rss_icon: false
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: false
+
+# Dimensions
+max_width: 800px
+
+# -----------------------------------------------------------------------------
+# Open Graph & Schema.org
+# -----------------------------------------------------------------------------
+# Display links to the page with a preview object on social media.
+serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_schema_org: false # Include Schema.org in the HTML head
+og_image: # The site-wide (default for all links) Open Graph preview image
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: blsp-group # your GitHub user name
+linkedin_username: # your LinkedIn user name
+scholar_userid: # your Google Scholar ID
+
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
+
+google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_site_verification: # your google-site-verification ID (Google Search Console)
+bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+
+blog_name: News & Updates
+blog_description: Latest news and updates from BLSP Group
+permalink: /blog/:year/:title/
+lsi: true # produce an index for related posts
+
+# Pagination
+pagination:
+  enabled: true
+
+related_blog_posts:
+  enabled: true
+  max_related: 5
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  members:
+    output: true
+    permalink: /members/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+
+announcements:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 10 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: # leave blank to include all the blog posts
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Markdown and syntax highlight
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+# Includes & excludes
+include: ['_pages']
+exclude:
+  - bin/
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+plugins:
+  - jekyll-archives
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+  - jekyll-scholar
+  - jekyll-email-protect
+  - jemoji
+
+# Plug-in settings
+scholar:
+  last_name: [Yin]
+  first_name: [Feng]
+
+  style: apa
+  locale: en
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  # Note: if you have latex math in your bibtex, the latex filter
+  # preprocessing may conflict with MathJAX if the latter is enabled.
+  # See https://github.com/alshedivat/al-folio/issues/357.
+  bibtex_filters: [latex, smallcaps, superscript]
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+# Display different badges withs stats for your repositories
+enable_github_badges: true
+enable_tooltips: true
+enable_darkmode: true
+enable_navbar_social: false
+
+# -----------------------------------------------------------------------------
+# Library versions
+# -----------------------------------------------------------------------------
+
+bootstrap-table:
+  version: "1.22.1"
+chartjs:
+  version: "4.4.1"
+d3:
+  version: "7.8.5"
+diff2html:
+  version: "3.4.47"
+echarts:
+  version: "5.4.3"
+highlight:
+  version: "11.9.0"
+jquery:
+  version: "3.6.0"
+katex:
+  version: "0.16.9"
+mathjax:
+  version: "3.2.0"
+masonry:
+  version: "4.2.2"
+mermaid:
+  version: "10.7.0"
+swiper:
+  version: "11.0.5"
+vega_lite:
+  version: "5.6.1" 

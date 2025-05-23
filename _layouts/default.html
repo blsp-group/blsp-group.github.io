@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  {% include head.html %}
+</head>
+
+<body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %}">
+  <!-- Header -->
+  {% include header.html %}
+
+  <!-- Content -->
+  <div class="container mt-5" role="main">
+    {{ content }}
+  </div>
+
+  <!-- Footer -->
+  {% include footer.html %}
+
+  <!-- Scripts -->
+  {% include scripts.html %}
+</body>
+</html> 

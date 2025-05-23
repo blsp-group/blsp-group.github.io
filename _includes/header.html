@@ -1,0 +1,34 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li {% if page.url == '/' %}class="active"{% endif %}>
+          <a href="{{ '/' | relative_url }}">Home</a>
+        </li>
+        {% assign sorted_pages = site.pages | sort: "nav_order" %}
+        {% for p in sorted_pages %}
+          {% if p.nav %}
+            <li {% if page.url contains p.url %}class="active"{% endif %}>
+              <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/images/logo/logo_w.png' | relative_url }}" alt="Logo" width="80px" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> 
