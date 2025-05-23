@@ -57,7 +57,7 @@ nav_order: 2
 
 <div class="row member-row">
   <div class="col-md-3">
-    <img src="{{ '/assets/images/photo/Richard.jpg' | relative_url }}" alt="Richard's photo" class="member-photo">
+    <img src="{{ '/assets/images/photo/Richard.jpeg' | relative_url }}" alt="Richard's photo" class="member-photo">
   </div>
   <div class="col-md-9">
     <h3>Richard Cornelius Suwandi</h3>
