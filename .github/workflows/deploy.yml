@@ -1,0 +1,39 @@
+name: Deploy Jekyll Site with GitHub Actions
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write # Allow write to publish to Pages
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby and Bundler Cache 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2' # Or your preferred Ruby version compatible with your gems
+          bundler-cache: true # Runs bundle install and caches gems
+
+      - name: Build Jekyll site 🔧
+        run: |
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+        env:
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Recommended for some plugins
+
+      - name: Deploy to GitHub Pages 🚀
+        if: github.event_name != 'pull_request' # Only deploy on direct pushes, not PRs
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site # The folder the site was built into
+          # branch: gh-pages # Default is gh-pages, change if your Pages source is different
+          # clean: true # Automatically remove deleted files from the deploy branch 
