@@ -146,22 +146,12 @@ exclude:
   - Gemfile.lock
   - vendor
 plugins:
-# Plug-ins
-plugins:
   - jekyll-archives
-  - jekyll-email-protect
   - jekyll-feed
-  - jekyll-get-json
-  - jekyll-imagemagick
-  - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  - jekyll-minifier
+  - jekyll-sitemap
   - jekyll-paginate-v2
   - jekyll/scholar
-  - jekyll-sitemap
-  - jekyll-tabs
-  - jekyll-toc
-  - jekyll-twitter-plugin
+  - jekyll-email-protect
   - jemoji
 
 # Plug-in settings
