@@ -98,23 +98,22 @@ nav_order: 2
   </div>
 </div>
 
-<!-- --- -->
-<!--  -->
-<!-- ## MPhil Students
+---
+## MPhil Students
 
 <div class="row member-row">
   <div class="col-md-3">
-    <img src="{{ '/assets/images/photo/un.png' | relative_url }}" alt="Qinglei Kong's photo" class="member-photo">
+    <img src="{{ '/assets/images/photo/MengYuan.png' | relative_url }}" alt="Qinglei Kong's photo" class="member-photo">
   </div>
   <div class="col-md-9">
-    <h3>李梦媛 &nbsp; Li Mengyuan</h3>
+    <h3>李梦媛 &nbsp; Mengyuan Li</h3>
     <p><i class="fa fa-clock-o"></i> 2025.01 ~ Now</p>
-    <p><i class="fa fa-envelope-o"></i> <a href="mailto:@link.cuhk.edu.cn">@link.cuhk.edu.cn</a></p>
+    <p><i class="fa fa-envelope-o"></i> <a href="mailto:mengyuanli@link.cuhk.edu.cn">mengyuanli@link.cuhk.edu.cn</a></p>
     <p>
-      Li Mengyuan
+      Mengyuan Li received her B.Eng. degree in Data Science from the Xi'an Jiao Tong Liverpool University in 2024. Now, she is an Mphil student at CUHK-Shenzhen, supervised by Prof. Feng Yin. Her research interests include diffusion model and machine learning.
     </p>
   </div>
-</div> -->
+</div>
 
 ---
 
@@ -243,7 +242,7 @@ nav_order: 2
   </div>
   <div class="col-md-9">
     <h3>瞿啸东 &nbsp; Xiaodong Qu</h3>
-    <p><i class="fa fa-clock-o"></i> 2020.10 ~ 2023.6</p>
+    <p><i class="fa fa-clock-o"></i> 2020.10 ~ 2023.06</p>
     <p><i class="fa fa-envelope-o"></i> <a href="mailto:xiaodongqu@link.cuhk.edu.cn">xiaodongqu@link.cuhk.edu.cn</a></p>
     <p>Current Affiliation: R.A. at Harbin Institute of Technology, Shenzhen, China.</p>
   </div>
@@ -267,7 +266,7 @@ nav_order: 2
   </div>
   <div class="col-md-9">
     <h3>孔庆磊 &nbsp; Qinglei Kong</h3>
-    <p><i class="fa fa-graduation-cap"></i> Former Postdoc.</p>
+    <p><i class="fa fa-graduation-cap"></i> Former Postdoc</p>
     <p>Current Affiliation: Harbin Institute of Technology, Shenzhen, China.</p>
   </div>
 </div>
@@ -327,6 +326,16 @@ nav_order: 2
   border-bottom: none;
 }
 
+.member-row .col-md-3 {
+  padding-right: 0;
+  margin-right: -1rem;
+}
+
+.member-row .col-md-9 {
+  padding-left: 0;
+  margin-left: -5rem;
+}
+
 .member-photo {
   width: 100%;
   max-width: 150px;
@@ -357,6 +366,12 @@ nav_order: 2
   
   .member-photo {
     max-width: 120px;
+  }
+  
+  .member-row .col-md-3,
+  .member-row .col-md-9 {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 </style> 
