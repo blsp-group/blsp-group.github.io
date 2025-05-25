@@ -452,16 +452,65 @@
 @media (max-width: 768px) {
   .member-row {
     text-align: center;
+    padding: 1rem;
+    margin: 0 auto 1.5rem auto;
+    max-width: 100%;
   }
   
   .member-photo {
     max-width: 120px;
+    margin: 0 auto 1rem auto;
+    display: block;
   }
   
   .member-row .col-md-3,
   .member-row .col-md-9 {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .member-row h3 {
+    margin-bottom: 0.8rem;
+    padding: 0 0.5rem;
+  }
+  
+  .member-row p {
+    padding: 0 0.5rem;
+    margin-bottom: 0.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  /* Ensure container has proper padding */
+  .container, .container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Additional mobile safety */
+@media (max-width: 480px) {
+  .member-row {
+    padding: 0.8rem;
+    margin: 0 0.5rem 1.2rem 0.5rem;
+  }
+  
+  .member-row .col-md-3,
+  .member-row .col-md-9 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  .member-row h3 {
+    padding: 0 0.3rem;
+  }
+  
+  .member-row p {
+    padding: 0 0.3rem;
   }
 }
 </style>
@@ -474,7 +523,7 @@
   <div class="footer-bottom">
     
     
-      <small>Last updated: May 24, 2025</small>
+      <small>Last updated: May 25, 2025</small>
     
   </div>
 </footer> 
