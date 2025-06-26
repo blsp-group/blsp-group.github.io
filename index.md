@@ -26,7 +26,7 @@ postdoc_recruitment:
 professor:
   name: "Feng Yin"
   chinese_name: "尹峰"
-  title: "Assistant Professor"
+  title: "Associate Professor"
   email: "yinfeng@cuhk.edu.cn"
   office: "Daoyuan building 205"
   photo: "/assets/images/photo/YinF.png"

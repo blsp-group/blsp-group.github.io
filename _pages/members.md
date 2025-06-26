@@ -10,11 +10,11 @@ nav_order: 2
 
 <div class="row member-row">
   <div class="col-md-3">
-    <img src="{{ '/assets/images/photo/FengYin.jpg' | relative_url }}" alt="Feng Yin's photo" class="member-photo">
+    <img src="{{ '/assets/images/photo/YinF.png' | relative_url }}" alt="Feng Yin's photo" class="member-photo">
   </div>
   <div class="col-md-9">
     <h3>尹峰 &nbsp; Feng Yin</h3>
-    <p><i class="fa fa-graduation-cap"></i> Assistant Professor</p>
+    <p><i class="fa fa-graduation-cap"></i> Associate Professor</p>
     <p><i class="fa fa-envelope-o"></i> <a href="mailto:yinfeng@cuhk.edu.cn">yinfeng@cuhk.edu.cn</a></p>
     <p><i class="fa fa-external-link"></i> <a href="https://myweb.cuhk.edu.cn/yinfeng" target="_blank">Feng Yin's homepage</a></p>
     <p>
