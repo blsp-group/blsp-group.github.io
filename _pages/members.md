@@ -16,7 +16,7 @@ nav_order: 2
     <h3>尹峰 &nbsp; Feng Yin</h3>
     <p><i class="fa fa-graduation-cap"></i> Associate Professor</p>
     <p><i class="fa fa-envelope-o"></i> <a href="mailto:yinfeng@cuhk.edu.cn">yinfeng@cuhk.edu.cn</a></p>
-    <p><i class="fa fa-external-link"></i> <a href="https://myweb.cuhk.edu.cn/yinfeng" target="_blank">Feng Yin's homepage</a></p>
+    <p><i class="fa fa-external-link"></i> <a href="https://sse.cuhk.edu.cn/en/faculty/yinfeng" target="_blank">Feng Yin's homepage</a></p>
     <p>
       Feng Yin received his B.Sc. degree from Shanghai Jiao Tong University, China, and his M.Sc. and Ph.D. degrees from Technische Universitaet Darmstadt, Germany. From 2014 to 2016, he was a postdoc researcher with Ericsson Research, Linkoping, Sweden. Since 2016, he has been with The Chinese University of Hong Kong, Shenzhen and is currently an associate professor at the School of Science and Engineering. His research interests include statistical signal processing, Bayesian learning and optimization, and sensory data fusion. He has published more than 40 top-tier journal papers, 50 conferences, and 20 patents/standards. He was a recipient of the Chinese Government Award for Outstanding Self-Financed Students Abroad in 2013 and the Marie Curie Young Fellowship from the European Union in 2014. He was the finalist for the IEEE CAMSAP best paper award in 2013 and received the best paper award of ICSINC conference in 2022. He has served as Associate Editor for the Elsevier Signal Processing Journal and currently serving as the Associate Editor for the IEEE Transactions on Signal Processing. He is an IEEE senior member and a core member of the IEEE Machine Learning and Signal Processing (MLSP) technical committee and the IEEE SPS scholarship committee.
     </p>
@@ -98,6 +98,34 @@ nav_order: 2
   </div>
 </div>
 
+<div class="row member-row">
+  <div class="col-md-3">
+    <img src="{{ '/assets/images/photo/ZihanYan.jpg' | relative_url }}" alt="Ao Wang's photo" class="member-photo">
+  </div>
+  <div class="col-md-9">
+    <h3>严子涵 &nbsp; Zihan Yan</h3>
+    <p><i class="fa fa-clock-o"></i> 2025.08 ~ Now</p>
+    <p><i class="fa fa-envelope-o"></i> <a href="mailto:zihanyan2@link.cuhk.edu.cn">zihanyan2@link.cuhk.edu.cn</a></p>
+    <p>
+      Zihan Yan received his B.Eng. and M.Eng. in Information and Communication Engineering from Beijing Institute of Technology in 2022 and 2025, respectively. He is currently pursuing his Ph.D. at The Chinese University of Hong Kong, Shenzhen. His research interests include spatial intelligence and data assimilation.
+    </p>
+  </div>
+</div>
+
+<div class="row member-row">
+  <div class="col-md-3">
+    <img src="{{ '/assets/images/photo/ZihaoLiu.jpg' | relative_url }}" alt="Ao Wang's photo" class="member-photo">
+  </div>
+  <div class="col-md-9">
+    <h3>刘子豪 &nbsp; Zihao Liu</h3>
+    <p><i class="fa fa-clock-o"></i> 2025.08 ~ Now</p>
+    <p><i class="fa fa-envelope-o"></i> <a href="mailto:zihaoliu1@link.cuhk.edu.cn">zihaoliu1@link.cuhk.edu.cn</a></p>
+    <p>
+      Zihao Liu received his B.Eng. degree from the Tongji University in 2025. He is currently a Ph.D. student of the Chinese University of Hong Kong, Shenzhen. His research interests include multimodal learning, large language models, and robotic navigation.
+    </p>
+  </div>
+</div>
+
 ---
 ## MPhil Students
 
@@ -111,6 +139,35 @@ nav_order: 2
     <p><i class="fa fa-envelope-o"></i> <a href="mailto:mengyuanli@link.cuhk.edu.cn">mengyuanli@link.cuhk.edu.cn</a></p>
     <p>
       Mengyuan Li received her B.Eng. degree in Data Science from the Xi'an Jiao Tong Liverpool University in 2024. Now, she is an Mphil student at CUHK-Shenzhen, supervised by Prof. Feng Yin. Her research interests include diffusion model and machine learning.
+    </p>
+  </div>
+</div>
+
+<div class="row member-row">
+  <div class="col-md-3">
+    <img src="{{ '/assets/images/photo/RuchengYu.jpg' | relative_url }}" alt="Qinglei Kong's photo" class="member-photo">
+  </div>
+  <div class="col-md-9">
+    <h3>余汝成 &nbsp; Rucheng Yu</h3>
+    <p><i class="fa fa-clock-o"></i> 2025.08 ~ Now</p>
+    <p><i class="fa fa-envelope-o"></i> <a href="mailto:ruchengyu@link.cuhk.edu.cn">ruchengyu@link.cuhk.edu.cn</a></p>
+    <p><i class="fa fa-external-link"></i> <a href="https://scholar.google.com/citations?user=-7DwQxsAAAAJ&hl=en" target="_blank">Rucheng's Google Scholar</a></p>
+    <p>
+    Rucheng Yu received his B.Sc. degree in Communication Engineering from the Jilin University in 2025. He is currently an MPhil student at The Chinese University of Hong Kong, Shenzhen, supervised by Prof. Feng Yin. His research interests include AIGC and Embodied AI.
+    </p>
+  </div>
+</div>
+
+<div class="row member-row">
+  <div class="col-md-3">
+    <img src="{{ '/assets/images/photo/XiaowenDuan.jpg' | relative_url }}" alt="Qinglei Kong's photo" class="member-photo">
+  </div>
+  <div class="col-md-9">
+    <h3>段晓雯  &nbsp; Xiaowen Duan</h3>
+    <p><i class="fa fa-clock-o"></i> 2025.08 ~ Now</p>
+    <p><i class="fa fa-envelope-o"></i> <a href="mailto:xiaowenduan@link.cuhk.edu.cn">xiaowenduan@link.cuhk.edu.cn</a></p>
+    <p>
+    Xiaowen Duan received her B. Eng. degree in automotive engineering from University College Dublin, Ireland in June, 2025. She is currently an Mphil student of the Bayesian Learning for Signal Processing Group at The Chinese University of Hong Kong, Shenzhen, supervised by Prof. Feng Yin. Her research interests include sensory data fusion and its applications.
     </p>
   </div>
 </div>
