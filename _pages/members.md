@@ -100,7 +100,7 @@ nav_order: 2
 
 <div class="row member-row">
   <div class="col-md-3">
-    <img src="{{ '/assets/images/photo/ZihanYan.jpg' | relative_url }}" alt="Ao Wang's photo" class="member-photo">
+    <img src="{{ '/assets/images/photo/ZihanYan.jpg' | relative_url }}" alt="Zihan Yan's photo" class="member-photo">
   </div>
   <div class="col-md-9">
     <h3>严子涵 &nbsp; Zihan Yan</h3>
@@ -114,7 +114,7 @@ nav_order: 2
 
 <div class="row member-row">
   <div class="col-md-3">
-    <img src="{{ '/assets/images/photo/ZihaoLiu.jpg' | relative_url }}" alt="Ao Wang's photo" class="member-photo">
+    <img src="{{ '/assets/images/photo/ZihaoLiu.jpg' | relative_url }}" alt="Zihao Liu's photo" class="member-photo">
   </div>
   <div class="col-md-9">
     <h3>刘子豪 &nbsp; Zihao Liu</h3>
@@ -131,7 +131,7 @@ nav_order: 2
 
 <div class="row member-row">
   <div class="col-md-3">
-    <img src="{{ '/assets/images/photo/MengYuan.png' | relative_url }}" alt="Qinglei Kong's photo" class="member-photo">
+    <img src="{{ '/assets/images/photo/MengYuan.png' | relative_url }}" alt="Mengyuan Li's photo" class="member-photo">
   </div>
   <div class="col-md-9">
     <h3>李梦媛 &nbsp; Mengyuan Li</h3>
@@ -145,7 +145,7 @@ nav_order: 2
 
 <div class="row member-row">
   <div class="col-md-3">
-    <img src="{{ '/assets/images/photo/RuchengYu.jpg' | relative_url }}" alt="Qinglei Kong's photo" class="member-photo">
+    <img src="{{ '/assets/images/photo/RuchengYu.jpg' | relative_url }}" alt="Rucheng Yu's photo" class="member-photo">
   </div>
   <div class="col-md-9">
     <h3>余汝成 &nbsp; Rucheng Yu</h3>
@@ -160,14 +160,28 @@ nav_order: 2
 
 <div class="row member-row">
   <div class="col-md-3">
-    <img src="{{ '/assets/images/photo/XiaowenDuan.jpg' | relative_url }}" alt="Qinglei Kong's photo" class="member-photo">
+    <img src="{{ '/assets/images/photo/XiaowenDuan.jpg' | relative_url }}" alt="Xiaowen Duan's photo" class="member-photo">
   </div>
   <div class="col-md-9">
     <h3>段晓雯  &nbsp; Xiaowen Duan</h3>
     <p><i class="fa fa-clock-o"></i> 2025.08 ~ Now</p>
     <p><i class="fa fa-envelope-o"></i> <a href="mailto:xiaowenduan@link.cuhk.edu.cn">xiaowenduan@link.cuhk.edu.cn</a></p>
     <p>
-    Xiaowen Duan received her B. Eng. degree in automotive engineering from University College Dublin, Ireland in June, 2025. She is currently an Mphil student of the Bayesian Learning for Signal Processing Group at The Chinese University of Hong Kong, Shenzhen, supervised by Prof. Feng Yin. Her research interests include sensory data fusion and its applications.
+    Xiaowen Duan received her B. Eng. degree in automotive engineering from University College Dublin, Ireland in June, 2025. She is currently an MPhil student of the Bayesian Learning for Signal Processing Group at The Chinese University of Hong Kong, Shenzhen, supervised by Prof. Feng Yin. Her research interests include sensory data fusion and its applications.
+    </p>
+  </div>
+</div>
+
+<div class="row member-row">
+  <div class="col-md-3">
+    <img src="{{ '/assets/images/photo/HongrongWang.png' | relative_url }}" alt="Hongrong Wang's photo" class="member-photo">
+  </div>
+  <div class="col-md-9">
+    <h3>王洪榕 &nbsp; Hongrong Wang</h3>
+    <p><i class="fa fa-clock-o"></i> 2025.08 ~ Now</p>
+    <p><i class="fa fa-envelope-o"></i> <a href="mailto:hongrongwang@link.cuhk.edu.cn">hongrongwang@link.cuhk.edu.cn</a></p>
+    <p>
+    Hongrong Wang obtained her Bachelor's Degree in Information Management and Information Systems from Guangdong University of Technology in 2025. She is currently pursuing her MPhil degree in Artificial Intelligence at The Chinese University of Hong Kong, Shenzhen. Her research interests include spatial intelligence and its applications.
     </p>
   </div>
 </div>
