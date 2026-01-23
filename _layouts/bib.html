@@ -11,7 +11,7 @@
         <a href="{{ entry.url }}" target="_blank"><i class="fa fa-external-link"></i></a>
       {% endif %}
       <br>
-      <em>{{ entry.author }}</em><br>
+      <em>{{ entry.author | format_authors }}</em><br>
       {% if entry.booktitle %}
         {{ entry.booktitle }}, {{ entry.year }}
       {% elsif entry.journal %}

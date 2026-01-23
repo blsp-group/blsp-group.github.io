@@ -89,8 +89,16 @@
 <lastmod>2025-09-19T00:00:00+08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/news/2025-12-tmc/</loc>
+<lastmod>2025-12-31T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/news/2026-01-icassp26/</loc>
 <lastmod>2026-01-18T00:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/news/2026-01-tnnls/</loc>
+<lastmod>2026-01-21T00:00:00+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/contact/</loc>
