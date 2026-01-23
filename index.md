@@ -45,5 +45,5 @@ contact:
     **Address:** 2001 Longxiang Boulevard, Longgang District, Shenzhen, China
 
 
-    **Website:** [http://sse.cuhk.edu.cn](http://sse.cuhk.edu.cn)
+    **Website:** [http://sai.cuhk.edu.cn](http://sai.cuhk.edu.cn/en)
 --- 
