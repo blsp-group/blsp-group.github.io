@@ -189,7 +189,7 @@ nav_order: 2
 ---
 
 ## Alumni and Visitors
-
+<!-- 
 <div class="row member-row">
   <div class="col-md-3">
     <img src="{{ '/assets/images/photo/GaoJ.jpeg' | relative_url }}" alt="Jun Gao's photo" class="member-photo">
@@ -204,8 +204,8 @@ nav_order: 2
     <p>
       Her research interests include indoor localization, machine learning and wireless communications.
     </p> -->
-  </div>
-</div>
+  <!-- </div> -->
+<!-- </div> -->
 
 <div class="row member-row">
   <div class="col-md-3">
