@@ -126,6 +126,22 @@ nav_order: 2
   </div>
 </div>
 
+
+<div class="row member-row">
+  <div class="col-md-3">
+    <img src="{{ '/assets/images/photo/YuchenLin.jpg' | relative_url }}" alt="Yuchen Lin's photo" class="member-photo">
+  </div>
+  <div class="col-md-9">
+    <h3>林昱辰 &nbsp; Yuchen Lin</h3>
+    <p><i class="fa fa-clock-o"></i> 2025.08 ~ Now</p>
+    <p><i class="fa fa-envelope-o"></i> <a href="mailto:121090326@link.cuhk.edu.cn">121090326@link.cuhk.edu.cn</a></p>
+    <p>
+    Yuchen Lin received his B.B.A. in Finance from CUHK-Shenzhen in 2025 and his M.Sc. in Global Operations from HKUST in 2026. He is currently a Ph.D. student at The Chinese University of Hong Kong, Shenzhen. His research focuses on the intersection of finance and AI, with a particular interest in AI agents for stock trading and investment decision-making.
+    </p>
+  </div>
+</div>
+
+
 ---
 ## MPhil Students
 
