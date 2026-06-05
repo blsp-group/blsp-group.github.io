@@ -29,20 +29,6 @@ nav_order: 2
 
 <div class="row member-row">
   <div class="col-md-3">
-    <img src="{{ '/assets/images/photo/un.png' | relative_url }}" alt="Yiyong Sun's photo" class="member-photo">
-  </div>
-  <div class="col-md-9">
-    <h3>孙艺勇 &nbsp; Yiyong Sun</h3>
-    <p><i class="fa fa-clock-o"></i> 2021.08 ~ Now</p>
-    <p><i class="fa fa-envelope-o"></i> <a href="mailto:yiyongsun@link.cuhk.edu.cn">yiyongsun@link.cuhk.edu.cn</a></p>
-    <p>
-      Yiyong Sun is currently a Ph.D. student at The Chinese University of Hong Kong, Shenzhen. His primary research interests include the joint physics-informed and data-driven spatial-temporal modeling, with a specific focus on its application in the context of 6G-enabled autonomous driving.
-    </p>
-  </div>
-</div>
-
-<div class="row member-row">
-  <div class="col-md-3">
     <img src="{{ '/assets/images/photo/WangJT_new.jpeg' | relative_url }}" alt="Juntao Wang's photo" class="member-photo">
   </div>
   <div class="col-md-9">
@@ -202,7 +188,7 @@ nav_order: 2
   </div>
 </div>
 
-<div class="row member-row">
+<!-- <div class="row member-row">
   <div class="col-md-3">
     <img src="{{ '/assets/images/photo/HongrongWang.png' | relative_url }}" alt="Hongrong Wang's photo" class="member-photo">
   </div>
@@ -214,7 +200,7 @@ nav_order: 2
     Hongrong Wang obtained her Bachelor's Degree in Information Management and Information Systems from Guangdong University of Technology in 2025. She is currently pursuing her MPhil degree in Artificial Intelligence at The Chinese University of Hong Kong, Shenzhen. Her research interests include spatial intelligence and its applications.
     </p>
   </div>
-</div>
+</div> -->
 
 <div class="row member-row">
   <div class="col-md-3">
@@ -247,6 +233,21 @@ nav_order: 2
 ---
 
 ## Alumni and Visitors
+
+<div class="row member-row">
+  <div class="col-md-3">
+    <img src="{{ '/assets/images/photo/un.png' | relative_url }}" alt="Yiyong Sun's photo" class="member-photo">
+  </div>
+  <div class="col-md-9">
+    <h3>孙艺勇 &nbsp; Yiyong Sun</h3>
+    <p><i class="fa fa-clock-o"></i> 2021.08 ~ 2026.01</p>
+    <p><i class="fa fa-envelope-o"></i> <a href="mailto:yiyongsun@link.cuhk.edu.cn">yiyongsun@link.cuhk.edu.cn</a></p>
+    <!-- <p>
+      Yiyong Sun is currently a Ph.D. student at The Chinese University of Hong Kong, Shenzhen. His primary research interests include the joint physics-informed and data-driven spatial-temporal modeling, with a specific focus on its application in the context of 6G-enabled autonomous driving.
+    </p> -->
+  </div>
+</div>
+
 <!-- 
 <div class="row member-row">
   <div class="col-md-3">
