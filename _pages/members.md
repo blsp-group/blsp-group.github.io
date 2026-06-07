@@ -230,6 +230,20 @@ nav_order: 2
   </div>
 </div>
 
+<div class="row member-row">
+  <div class="col-md-3">
+    <img src="{{ '/assets/images/photo/LucongLiao.png' | relative_url }}" alt="Lucong Liao's photo" class="member-photo">
+  </div>
+  <div class="col-md-9">
+    <h3>廖禄聪 &nbsp; Lucong Liao</h3>
+    <p><i class="fa fa-clock-o"></i> 2026.08 ~ Now</p>
+    <!-- <p><i class="fa fa-envelope-o"></i> <a href="mailto:hongrongwang@link.cuhk.edu.cn">hongrongwang@link.cuhk.edu.cn</a></p> -->
+    <p>
+    Lucong Liao received his Bachelor's degree in Communication Engineering from the Harbin Institute of Technology, Shenzhen, in 2026. He is currently an MPhil student at The Chinese University of Hong Kong, Shenzhen, supervised by Prof. Feng Yin. His research interests include Vision-Language Models and Embodied Intelligence.
+    </p>
+  </div>
+</div>
+
 ---
 
 ## Alumni and Visitors
