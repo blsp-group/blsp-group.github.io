@@ -51,7 +51,7 @@ nav_order: 2
     <p><i class="fa fa-envelope-o"></i> <a href="mailto:richardsuwandi@link.cuhk.edu.cn">richardsuwandi@link.cuhk.edu.cn</a></p>
     <p><i class="fa fa-external-link"></i> <a href="https://richardcsuwandi.github.io/" target="_blank">Richard's homepage</a></p>
     <p>
-      Richard Cornelius Suwandi received his B.Sc. degree in Statistics (with first-class honors) from the Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen) in 2023. He is currently a Ph.D. student at the School of Artificial Intelligence at CUHK-Shenzhen, supervised by Prof. Feng Yin and Prof. Tsung-Hui Chang. His research interests include black-box optimization, probabilistic machine learning, and large language models.
+      Richard Cornelius Suwandi received his B.Sc. degree in Statistics (with first-class honors) from the Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen) in 2023. He is currently a Ph.D. student at the School of Artificial Intelligence at CUHK-Shenzhen, supervised by Prof. Feng Yin and Prof. Tsung-Hui Chang. His research interests include Bayesian optimization, probabilistic machine learning, and AI-driven discovery.
     </p>
   </div>
 </div>
