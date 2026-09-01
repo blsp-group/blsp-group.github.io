@@ -250,7 +250,7 @@ nav_order: 2
     <img src="{{ '/assets/images/photo/RuihuaXu.jpg' | relative_url }}" alt="Ruihua Xu's photo" class="member-photo">
   </div>
   <div class="col-md-9">
-    <h3>徐瑞华 &nbsp; Ruihua Xu</h3>
+    <h3>徐蕊华 &nbsp; Ruihua Xu</h3>
     <p><i class="fa fa-clock-o"></i> 2026.08 ~ Now</p>
     <p><i class="fa fa-envelope-o"></i> <a href="mailto:226085047@link.cuhk.edu.cn">226085047@link.cuhk.edu.cn</a></p>
     <p>
