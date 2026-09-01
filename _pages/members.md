@@ -77,7 +77,7 @@ nav_order: 2
   <div class="col-md-9">
     <h3>王傲 &nbsp; Ao Wang</h3>
     <p><i class="fa fa-clock-o"></i> 2023.08 ~ Now</p>
-    <p><i class="fa fa-envelope-o"></i> <a href="mailto:aowang1@link.cuhk.edu.cn">aowang1@link.cuhk.edu.cn</a></p>
+    <p><i class="fa fa-envelope-o"></i> <a href="mailto:aowang2@link.cuhk.edu.cn">aowang2@link.cuhk.edu.cn</a></p>
     <p>
       Ao Wang received his B.Sc. degree in Information and Computer Science from the Beijing Jiaotong University in 2021 and a M.Sc degree in Mathematics from National University of Singapore in 2022. He is currently a Ph.D. student at The Chinese University of Hong Kong, Shenzhen. His research interests include signal processing and machine learning.
     </p>
