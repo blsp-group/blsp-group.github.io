@@ -188,20 +188,6 @@ nav_order: 2
   </div>
 </div>
 
-<!-- <div class="row member-row">
-  <div class="col-md-3">
-    <img src="{{ '/assets/images/photo/HongrongWang.png' | relative_url }}" alt="Hongrong Wang's photo" class="member-photo">
-  </div>
-  <div class="col-md-9">
-    <h3>王洪榕 &nbsp; Hongrong Wang</h3>
-    <p><i class="fa fa-clock-o"></i> 2025.08 ~ Now</p>
-    <p><i class="fa fa-envelope-o"></i> <a href="mailto:hongrongwang@link.cuhk.edu.cn">hongrongwang@link.cuhk.edu.cn</a></p>
-    <p>
-    Hongrong Wang obtained her Bachelor's Degree in Information Management and Information Systems from Guangdong University of Technology in 2025. She is currently pursuing her MPhil degree in Artificial Intelligence at The Chinese University of Hong Kong, Shenzhen. Her research interests include spatial intelligence and its applications.
-    </p>
-  </div>
-</div> -->
-
 <div class="row member-row">
   <div class="col-md-3">
     <img src="{{ '/assets/images/photo/YuhaoLiu.jpeg' | relative_url }}" alt="Yuhao Liu's photo" class="member-photo">
@@ -240,6 +226,21 @@ nav_order: 2
     <!-- <p><i class="fa fa-envelope-o"></i> <a href="mailto:hongrongwang@link.cuhk.edu.cn">hongrongwang@link.cuhk.edu.cn</a></p> -->
     <p>
     Lucong Liao received his Bachelor's degree in Communication Engineering from the Harbin Institute of Technology, Shenzhen, in 2026. He is currently an MPhil student at The Chinese University of Hong Kong, Shenzhen, supervised by Prof. Feng Yin. His research interests include Vision-Language Models and Embodied Intelligence.
+    </p>
+  </div>
+</div>
+
+
+<div class="row member-row">
+  <div class="col-md-3">
+    <img src="{{ '/assets/images/photo/RuoyuZhang.jpg' | relative_url }}" alt="Ruoyu Zhang's photo" class="member-photo">
+  </div>
+  <div class="col-md-9">
+    <h3>张若禹 &nbsp; Ruoyu Zhang</h3>
+    <p><i class="fa fa-clock-o"></i> 2026.08 ~ Now</p>
+    <p><i class="fa fa-envelope-o"></i> <a href="mailto:226085122@link.cuhk.edu.cn">226085122@link.cuhk.edu.cn</a></p>
+    <p>
+    Ruoyu Zhang received his BSc in Math and Physics at the University of Toronto, Canada. He is currently an MPhil student at The Chinese University of Hong Kong, Shenzhen, supervised by Prof. Feng Yin. His research interests primarily focus on continuous learning and reinforcement learning.
     </p>
   </div>
 </div>
